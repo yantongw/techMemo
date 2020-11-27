@@ -1,9 +1,10 @@
-os.path.split(os.path.realpath(__file__))[0]　　获取执行py文件自身的所在目录
--------------------------------------------------------------------------------------------------------------------------
-os.path.dirname(os.getcwd())　　上一级目录名
-os.chdir(os.path.dirname(os.getcwd()))   返回上一级目录
+OS模块 命令列表
 
-os.listdir(‘dirname’)     列出指定目录下的所有文件和子目录，lis包括隐藏文件，并以列表方式打印
+- os.path.split(os.path.realpath(__file__))[0]　　获取执行py文件自身的所在目录
+- os.path.dirname(os.getcwd())　　上一级目录名
+- os.chdir(os.path.dirname(os.getcwd()))   返回上一级目录
+
+- os.listdir(‘dirname’)     列出指定目录下的所有文件和子目录，lis包括隐藏文件，并以列表方式打印
 os.linesep    字符串给出当前平台使用的行终止符
 os.getcwd()     获取当前工作目录，即当前python脚本工作的目录路径
 os.chdir(“dirname”)     改变当前脚本工作目录；相当于shell下cd
